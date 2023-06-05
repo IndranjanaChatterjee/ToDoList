@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+}
+
+.container {
+    min-height: 50vh;
+    min-width: 30vw;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid white;
+    border-radius: 2rem;
+    
+}
+
+.first h1 {
+    font-size: 7vh;
+    
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.input{
+    background-color:black;
+    min-height: 5vh;
+    min-width:17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom:1.5rem;
+
+}
+input[type="text"],#add{
+    min-height: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    outline:none;
+    border-radius: 2rem;
+    background-color:rgb(158, 155, 155);
+    color:white;
+    font-size: 1.5rem;
+}
+input[type="text"]
+{
+  padding-left: 1rem;
+  min-width: 10vw;
+}
+#add{
+    min-width:5vw;
+}
+::placeholder{
+    color:white;
+}
+#add:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    box-shadow:5px 5px 50px white ;
+    
+    
+}
+ul{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+ul li{
+    color: azure;
+    font-size: 2rem;
+    list-style:none;
+}
+ul li button{
+    right: 36rem;
+    width:3rem;
+    font-weight: 900;
+    font-size: x-large;
+    background-color: rgb(197, 155, 15);
+    position: fixed;
+}
+
+ul li span
+{
+    color:white;
+    margin-right: 17rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(248, 237, 84)
+}
+ul li button:hover{
+    background-color: rgb(207, 201, 112);
+    box-shadow:5px 5px 50px rgb(193, 240, 166);
+}
+ul li input[type="checkbox"]
+{
+    margin-right: 1rem;
+    height: 1.5rem;
+    width:1.5rem;
+}
+.first{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom:5rem;
+    gap:2rem;
+}
+.first img{
+    height: 10%;
+    width:10%;
+}
